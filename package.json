@@ -1,0 +1,22 @@
+{
+  "name": "problem-13-mock",
+  "version": "1.0.0",
+  "description": "Parte de práctica (Parte 1 y 2):\r https://github.com/DarioFalzone/app-13",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js --spec app-13-wd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.5.3",
+    "@wdio/sync": "^7.5.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
